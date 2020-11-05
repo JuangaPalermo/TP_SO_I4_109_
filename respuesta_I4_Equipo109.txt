@@ -4,3 +4,10 @@ A- Azul
 B- Amarillo
 C- Azul
 D- El de Beta
+
+----
+
+E- Beta y Gamma tuvieron problemas al momento de hacer el push
+F- El problema fue que se detectaba que se habian hecho cambios que no estaban actualizados, en el archivo que Beta o Gamma estaban intentando pushear.
+G- Nosotros al no poder hacer el push poruue un archivo tenía conflicto, hicimos fetch, luego de eso, fusionamos lo que trajo el fetch con los cambios que habiamos hecho nosotros, y luego, en el caso de BETA a traves de Visual Code acepto ambos cambios, de esta manera puso agregar la informacion al archivo manteniendo la de ALFA. En el caso de GAMMA, resolvio el conflicto utilizando la herramienta mergetool (en esta ultima oportunidad), y anteriormente (en el punto 16) lo resolvio manualmente modificando el archivo en cuestion.
+
